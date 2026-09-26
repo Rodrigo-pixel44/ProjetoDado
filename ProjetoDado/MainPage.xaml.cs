@@ -18,6 +18,7 @@
             List<int> numerosEspecificos = new List<int> { 4, 6, 8, 10, 12, 20, 100 };
             int indiceAleatorio = aleatorio.Next(0, numerosEspecificos.Count);
             int numeroSorteado = numerosEspecificos[indiceAleatorio];
+           ResultadoLabel.Text = $"{numeroSorteado}";
            
 
 
